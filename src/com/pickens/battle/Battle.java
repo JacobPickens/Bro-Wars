@@ -4,6 +4,8 @@ import org.newdawn.slick.Graphics;
 
 public class Battle {
 
+	// Test
+	
 	private static Bot[] bots = new Bot[2];
 	
 	private int step, index = 0, check = 30;
