@@ -3,8 +3,6 @@ package com.pickens.battle;
 import org.newdawn.slick.Graphics;
 
 public class Battle {
-
-	// Test
 	
 	private static Bot[] bots = new Bot[2];
 	private int step;
