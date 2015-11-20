@@ -8,7 +8,7 @@ public class TestBot extends Bot {
 
 	@Override
 	public void update(int delta) {
-		Battle.attack(index);
+		Battle.attack();
 	}
 
 }

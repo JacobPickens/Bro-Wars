@@ -8,7 +8,11 @@ public class TestBot2 extends Bot {
 
 	@Override
 	public void update(int delta) {
-		Battle.attack(index);
+		if(Battle.getCooldown(Battle.HEAL_COOLDOWN) == 0) {
+			Battle.heal();
+		} else {
+			Battle.attack();
+		}
 	}
 
 }
